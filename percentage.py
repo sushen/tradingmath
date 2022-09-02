@@ -3,8 +3,17 @@
 
 current_price = 100
 
-high_price = 120
+high_price = 130
 
 low_price = 80
 
+price_increce = high_price-current_price
+# print(price_increce)
+high_persentic = (price_increce*100)/current_price
+print(f"hight persentic:{high_persentic}")
 
+
+lost_price = low_price-current_price
+print(f"lost price:{lost_price}")
+lost_percentic = (lost_price*100)/current_price
+print(f"lost persentic:{lost_percentic}")
