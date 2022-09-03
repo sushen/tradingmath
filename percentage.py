@@ -6,8 +6,8 @@ How much percentage the price goes and down?
 
 current_price = int(input("What is current price ? :"))
 # TODO : Use input for high_price and low_price
-high_price = 110
-low_price = 90
+high_price = int(input("What is high price ? :"))
+low_price = int(input("What is low price ? :"))
 
 
 price_increase = high_price-current_price
@@ -18,3 +18,5 @@ print(f"Height percentage: {high_percentage} %")
 lost_price = low_price-current_price
 lost_percentage = (lost_price*100)/current_price
 print(f"Lost percentage: {lost_percentage} %")
+print(f"My NAme: {lost_percentage} %")
+
